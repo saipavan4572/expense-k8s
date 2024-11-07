@@ -12,9 +12,9 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-    component: mysql
-    project: expense
-    tier: db
+      component: mysql
+      project: expense
+      tier: db
   # pod definition
   template:
     metadata: 

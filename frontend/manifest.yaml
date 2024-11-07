@@ -107,9 +107,9 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-    component: frontend
-    project: expense
-    tier: web
+      component: frontend
+      project: expense
+      tier: web
   # pod definition
   template:
     metadata: 

@@ -1,0 +1,11 @@
+## before run this file, image "saipavan9594/debug:v1.0" should be pushed to dockerhub.
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: debug
+  namespace: expense
+spec:
+  containers:
+  - name: debug
+    image: saipavan9594/debug:v1.0
+## this debug pod can be used to debug whether we are able to connect between the pods like, backend is connected to mysql db or not.
